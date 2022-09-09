@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-/*
- *
+/**
  *  * main - Entry point
  *
- *   
+ *
  *
  *    * Description: Print with proper grammar, but the outcome is a piece of art.
  *
- *     
+ *   
  *
  *      * Return: Always o (Success)
  *
