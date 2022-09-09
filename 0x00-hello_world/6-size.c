@@ -7,7 +7,7 @@
  *  to the terminal depending on the system
  *  Return: 0 (Success)
  *
-*/ 
+*/
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
