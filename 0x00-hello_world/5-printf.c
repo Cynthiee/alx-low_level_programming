@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 /**
- *  * main - Entry point
+ *  main - entry into the program
+ *
+ *
+ *  Return: prints the message
+ *  'with proper grammar, but the outcome is a piece of art'
+ *  to the screen
  *
  *
  *
- *    * Description: Print with proper grammar, but the outcome is a piece of art.
  *
- *
- *
- *      * Return: Always o (Success)
  *
  */
 
