@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 /**
+ *  *main - entry point for the program
  *
- *  * main - entry point for the program
- *
- *   * Description: Print programming is like building a multilingual puzzle.   
+ *    Description: Print programming is like building a multilingual puzzle.   
  *
  *    * Return: Displays a message to the terminal.
- *
  *
  */
 
