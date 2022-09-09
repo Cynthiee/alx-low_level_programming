@@ -4,7 +4,7 @@
  *
  *  * main - entry point for the program
  *
- *   *
+ *   
  *
  *    * Return: Displays a message to the terminal.
  *
