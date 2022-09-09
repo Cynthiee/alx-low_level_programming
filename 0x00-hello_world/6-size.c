@@ -3,7 +3,8 @@
 /**
  * main - entry into program
  *
- *  Description: prints the size of the different sizes of bytes that C runs on.
+ *  Description: prints the size of the different
+ *  sizes of bytes that C runs on.
  *
  *  Return: 0 (Success)
 */
