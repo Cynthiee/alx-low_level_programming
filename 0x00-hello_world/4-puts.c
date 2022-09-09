@@ -4,11 +4,12 @@
  *
  *  * main - entry point for the program
  *
- *   
+ *   * Description: Print programming is like building a multilingual puzzle.   
  *
  *    * Return: Displays a message to the terminal.
  *
- *     */
+ *     
+ */
 
 int main(void)
 
