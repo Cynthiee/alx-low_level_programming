@@ -13,17 +13,18 @@ int main(void)
 	int n;
 	int o;
 
-	for (m = 0; m < 8; m++)
+	for (m = 48; m < 58; m++)
 	{
-	for (n = (m + 1); n <= 8; n++)
+	for (n = 49; n < 58; n++)
 	{
-	for (o = (n + 1); 0 <= 9; o++)
+	for (o = (n + 50; 0 < 58; o++)
+	if (o > n && n > m)
 	{
-	putchar('0' + m);
-	putchar('0' + n);
-	putchar('0' + o);
+	putchar(m);
+	putchar(n);
+	putchar(o);
 
-	if (m < 7)
+	if (m != 55 || n != 56)
 	{
 	putchar(',');
 	putchar(' ');
