@@ -12,16 +12,16 @@ int main(void)
 {
 	int m, n;
 
-	for (m = 0; i < 100; m++)
+	for (m = 0; m < 100; m++)
 	{
-	for (n = 0; < 100; n++)
+	for (n = 0; n < 100; n++)
 	{
 	if (m < n)
 	{
 	putchar((m / 10) + 48);
 	putchar((m % 10) + 48);
 	putchar(' ');
-	putchat((n / 10) + 48);
+	putchar((n / 10) + 48);
 	putchar((n % 10) + 48);
 	if (m != 98 || n != 99)
 	{
