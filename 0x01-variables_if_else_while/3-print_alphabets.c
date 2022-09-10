@@ -9,24 +9,19 @@
 */
 int main(void)
 {
-	char letter;
+	char i;
+	char j;
 
-	letter = 'a';
-
-	while (letter <= 'z')
+	for (i = 'a'; i <= 'z'; i++)
 	{
-	putchar('\n')';
-	letter++;
+		putchar(i);
 	}
-	letter = 'A';
-
-	while (letter <= 'Z')
+	for (j = 'A'; j <= 'Z'; j++)
 	{
-	putchar('\n')';
-	letter++;
+	putchar(j);
 	}
 
-	putchar('\n')';
+	putchar('\n');
 
 	return (0);
 }
