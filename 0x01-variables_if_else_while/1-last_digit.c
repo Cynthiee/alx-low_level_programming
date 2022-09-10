@@ -5,8 +5,6 @@
 /**
  * main - entry point
  *
- * Description: random number, last digit determinant.
- *
  * Return: 0 (Success)
  */
 int main(void)
