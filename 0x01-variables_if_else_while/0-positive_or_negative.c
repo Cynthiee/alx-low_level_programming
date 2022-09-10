@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
@@ -6,7 +6,7 @@ nclude <stdlib.h>
  * main - Entry point
  *
  *
- * Return: Always 0 (Success/correct)
+ * Return: 0 (Success)
  *
 */
 
