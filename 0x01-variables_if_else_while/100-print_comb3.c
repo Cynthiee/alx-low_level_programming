@@ -21,8 +21,10 @@ int main(void)
 	putchar('0' + n);
 
 	if (m < 8)
+	{
 	putchar(',');
 	putchar(' ');
+	}
 	}
 	}
 	putchar('\n');
