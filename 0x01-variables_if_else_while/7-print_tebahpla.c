@@ -9,11 +9,14 @@
  */
 int main(void)
 {
-	char i;
+	char letter;
 
-	for (i = 'z'; i >= 'a'; i--)
+	letter = 'z';
+
+	while (letter >= 'a')
 	{
-	putchar(i);
+	putchar(letter);
+	letter--;
 	}
 	putchar('\n)';
 
