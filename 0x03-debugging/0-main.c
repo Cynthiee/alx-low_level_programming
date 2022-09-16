@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- *
- * Description: tests function that prints if integer
+ * main - tests function that prints if integer
  * is positive or negative.
  *
  * Result: 0
@@ -13,7 +11,7 @@ int main(void)
 {
 	int i;
 
-	i = 0;
+	i = 98 % 2;
 	positive_or_negative(i);
 
 	return (0);
