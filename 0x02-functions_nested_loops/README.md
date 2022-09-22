@@ -1,1 +1,1 @@
-This is a functions and other commands file.
+This is a file that describes functions and nested loop in C programming.
