@@ -2,7 +2,9 @@
 
 /**
  * main - alphabet
- * print_alphabet_x10 - print a - z ten times 
+ * Description: function uses _putchar function to print
+ * alphabet in lowercase 10 times.
+ * Return: 0
  */
 
 void print_alphabet_x10(void)
