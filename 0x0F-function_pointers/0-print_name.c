@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include "function_pointers"
 
-=======
->>>>>>> 4bd4da89a806866166af713b0a1c49a3e7cec144
 /**
  * print_name - function to print name
  *
