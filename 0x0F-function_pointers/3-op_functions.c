@@ -1,7 +1,11 @@
-<<<<<<< HEAD
 #include "3-calc.h"
-=======
->>>>>>> 4bd4da89a806866166af713b0a1c49a3e7cec144
+
+int op_add(int a, int b);
+int op_sub(int a, int b);
+int op_mul(int a, int b);
+int op_div(int a, int b);
+int op_mod(int a, int b);
+
 /**
  * op_add - adds @a and @b
  *
