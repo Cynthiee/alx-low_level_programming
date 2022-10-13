@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 #include "3-calc.h"
+=======
+>>>>>>> 4bd4da89a806866166af713b0a1c49a3e7cec144
 /**
  * op_add - adds @a and @b
  *
