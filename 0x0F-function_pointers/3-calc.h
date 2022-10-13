@@ -1,27 +1,23 @@
-#include <stdio.h>
-#include "function_pointers.h"
+#ifndef _CALC_H
+#define _CALC_H
+
 /**
- * int_index - earches for an integer
- * @array: array to search in
- * @size: size of the array
- * @cmp: pointer to the comparing function
+ * struct op - Struct op
  *
- * Return: index of the first element for which
- * the cmp function does not return 0, or -1 if no match is found
- * or size is negative
- */
-int int_index(int *array, int size, int (*cmp)(int))
+ * @op: The operator
+ * @f: The function associated
+*/
+typedef struct op
 {
-	int i;
+	char *op;
+	int (*f)(int a, int b);
+} op_t;
 
-	if (array && cmp)
-	{
-		for (i = 0; i < size; i++)
-		{
-			if (cmp(array[i]) != 0)
-				return (i);
-		}
-	}
+int op_add(int a, int b);
+int op_sub(int a, int b);
+int op_mul(int a, int b);
+int op_div(int a, int b);
+int op_mod(int a, int b);
+int (*get_op_func(char *s))(int, int);
 
-	return (-1);
-}
+#endif /* _CALC_H */
